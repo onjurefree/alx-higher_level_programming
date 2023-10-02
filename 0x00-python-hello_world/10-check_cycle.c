@@ -19,8 +19,8 @@ while (current != NULL && check->next != NULL && check->next != NULL)
 {
 if (current == check)
 return (1);
-current = current ->next;
-check = check->next;
+current = current->next;
+check = check->next->next;
 }
 return (0);
 }
